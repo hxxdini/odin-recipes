@@ -1,0 +1,19 @@
+header {
+    text-align: center;
+    width: auto;
+}
+
+header img {
+    width: auto;
+    height: 500px;
+}
+
+main div {
+    text-align: left;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+}
+ h3 {
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: bold;
+     font-size: medium;
+ }
