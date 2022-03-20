@@ -1,3 +1,18 @@
+/* Import fonts */
+@font-face {
+    font-family: HK Grotesk;
+    src: url("https://cdn.glitch.me/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+      format("opentype");
+  }
+
+  html {
+    box-sizing: border-box;
+  }
+
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
 header {
     text-align: center;
     width: auto;
@@ -8,12 +23,45 @@ header img {
     height: 500px;
 }
 
+body {
+    background-color: #BDC9FF;
+}
+
 main div {
     text-align: left;
-    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-family: HK Grotesk;
 }
+
+.content {
+    background: #fff;
+    padding: 1rem;
+    border: 2px solid black;
+    margin: 10px 1.2em;
+    border-radius: 8px;
+}
+
+h2, h3 {
+    color: #2800FF;
+    font-family: HK Grotesk;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 105%;
+    margin: 2rem 0 0;
+}
+h2 {
+    font-size: 50px;
+ }
+
  h3 {
-     font-family: Georgia, 'Times New Roman', Times, serif;
-     font-weight: bold;
-     font-size: medium;
+    font-size: 20px;
+ }
+
+ main div a {
+     display: inline-block;
+     border-radius: 10px;
+     margin: 0 20px;
+     padding: 5px;
+     text-decoration: none;
+     color: #fff;
+     background-color: #2800FF;
  }
